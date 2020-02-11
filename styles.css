@@ -4,3 +4,12 @@ p {
   background-color: gainsboro;
 
 }
+
+html {
+    border-style:double;
+    border-width: 30 px;
+    background-color: lightgrey;
+    width: 1275px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
