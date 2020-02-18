@@ -4,6 +4,7 @@ p {
   background-color: white;
   font-style: italic;
   font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -34,4 +35,9 @@ p {
   color: white;
 }
 
+h1 {
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
 
