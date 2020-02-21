@@ -1,19 +1,43 @@
-p {
-  
+p.Ortsnamen{
   text-align: block;
   background-color: white;
   font-style: italic;
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow:darkgrey 2px 1px;
 }
+p.Inhalt{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+p.Unterseiten {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-decoration: underline;
+  text-shadow:darkgrey 2px 1px;
+}
+h1 {
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  text-shadow:darkgrey 4px 1px;
+}
+
+
+
+
+
+
+
 
 
 .topnav {
-  background: url(https://ak1.picdn.net/shutterstock/videos/22595461/thumb/1.jpg);
+  background: url(https://i.pinimg.com/originals/2d/c3/93/2dc393607035e3d35128dfa6a277b8d3.jpg);
+  background-image: repeating-linear-gradient();
+  background-size: cover;
+
   overflow: hidden;
 }
-
-
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -22,22 +46,12 @@ p {
   text-decoration: none;
   font-size: 17px;
 }
-
-
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
-
-
 .topnav a.active {
   background-color: rgb(255, 0, 0);
   color: white;
-}
-
-h1 {
-  font-size: 60px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
 }
 
