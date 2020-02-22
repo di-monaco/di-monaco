@@ -32,7 +32,7 @@ h1 {
 
 
 .topnav {
-  background: url(https://i.pinimg.com/originals/2d/c3/93/2dc393607035e3d35128dfa6a277b8d3.jpg);
+  background: url(https://images.hdqwalls.com/wallpapers/polygon-abstract-shapes-sharp-4k-wt.jpg);
   background-image: repeating-linear-gradient();
   background-size: cover;
 
@@ -51,7 +51,7 @@ h1 {
   color: black;
 }
 .topnav a.active {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(206, 119, 36);
   color: white;
 }
 
