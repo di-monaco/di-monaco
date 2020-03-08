@@ -11,6 +11,7 @@ p.Inhalt{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 17.5px;
   text-align: justify;
+  padding: 0%;
 }
 
 p.Unterseiten {
@@ -18,6 +19,7 @@ p.Unterseiten {
   font-size: 30px;
   text-decoration: underline;
   text-shadow:darkgrey 2px 1px;
+  text-align: center;
 }
 
 h1 {
@@ -58,4 +60,10 @@ html {
   background-color: rgb(206, 119, 36);
   color: white;
 }
+
+.column {
+  width: 50%;
+  float: left;
+}
+
 
