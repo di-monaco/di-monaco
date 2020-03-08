@@ -66,4 +66,20 @@ html {
   float: left;
 }
 
+.columnhome {
+  width: 50%;
+  float: left;
+}
 
+ul.a {
+  list-style-type: square;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 26px;
+  text-align: justify;
+  padding-top: 0px;
+  padding-left: 250px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+
+
+}
