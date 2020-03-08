@@ -66,10 +66,10 @@ html {
 ul.a {
   list-style-type: square;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 26px;
+  font-size: 150%;
   text-align: justify;
   padding-top: 0px;
-  padding-left: 250px;
+  padding-left: 40%;
   padding-right: 0px;
   padding-bottom: 0px;
   text-shadow:darkgrey 2px 1px;
