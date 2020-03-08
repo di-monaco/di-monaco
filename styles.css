@@ -1,19 +1,11 @@
-p.Ortsnamen{
-  text-align: block;
-  background-color: white;
-  font-style: italic;
-  font-size: 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-shadow:darkgrey 2px 1px;
-}
-
+ /* einstellungen für grösse,schrift etc. bezogen auf den inhalt  */
 p.Inhalt{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 17.5px;
   text-align: justify;
   padding: 0%;
 }
-
+ /*  einstellungen für grösse,schrift etc. bezogen auf überschriften bei unterseiten */
 p.Unterseiten {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
@@ -21,20 +13,20 @@ p.Unterseiten {
   text-shadow:darkgrey 2px 1px;
   text-align: center;
 }
-
+  /*  einstellungen für grösse,schrift etc. bezogen auf Überschriften*/
 h1 {
   font-size: 60px;
   font-family: Verdana, Geneva, Tahoma, sans-serif; 
   text-shadow:darkgrey 3px 1px;
 }
-
+ /* paadding bezogen aufs ganze html dokument */
 html {
   padding-top: 0px;
   padding-right: 20px;
   padding-bottom: 0px;
   padding-left: 20px;
 }
-
+ /* alles zum navigation bar .topnav... */
 .topnav {
   background: url(https://images.hdqwalls.com/wallpapers/polygon-abstract-shapes-sharp-4k-wt.jpg);
   background-image: repeating-linear-gradient();
@@ -60,17 +52,17 @@ html {
   background-color: rgb(206, 119, 36);
   color: white;
 }
-
+ /* Unterteilung der Seiten in 2 Teile */
 .column {
   width: 50%;
   float: left;
 }
-
+ /* Unterteilung der Seiten in 2 Teile. Bezogen auf Home Seite */
 .columnhome {
   width: 50%;
   float: left;
 }
-
+ /* Liste auf Home */
 ul.a {
   list-style-type: square;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -80,6 +72,5 @@ ul.a {
   padding-left: 250px;
   padding-right: 0px;
   padding-bottom: 0px;
-
-
+  text-shadow:darkgrey 2px 1px;
 }
