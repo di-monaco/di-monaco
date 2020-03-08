@@ -1,14 +1,14 @@
  /* einstellungen für grösse,schrift etc. bezogen auf den inhalt  */
 p.Inhalt{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 17.5px;
+  font-size: 111%;
   text-align: justify;
   padding: 0%;
 }
  /*  einstellungen für grösse,schrift etc. bezogen auf überschriften bei unterseiten */
 p.Unterseiten {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: 200%;
   text-decoration: underline;
   text-shadow:darkgrey 2px 1px;
   text-align: center;
