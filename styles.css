@@ -60,7 +60,7 @@ html {
   float: left;
 }
 
- /* Liste auf Home */
+ /* Liste auf Home (welche rausgelöscht wurde, aber später noch hineinkommt) */
 ul.a {
   list-style-type: square;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -68,9 +68,13 @@ ul.a {
   text-align: justify;
   text-shadow:darkgrey 2px 1px;
 }
-/* Liste bei Quellen*/
+/* Design der Listen bei Quellen*/
 ul.b {
   list-style-type: square;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 140%;
+}
+/* Border bei tabelle */
+table, th, td {
+  border: 1px solid black;
 }
