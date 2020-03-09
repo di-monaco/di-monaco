@@ -1,14 +1,14 @@
  /* einstellungen für grösse,schrift etc. bezogen auf den inhalt  */
 p.Inhalt{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 120%;
+  font-size: medium;
   width: 75%;
   text-align: justify;
   padding: 0%;
 }
  /*  einstellungen für grösse,schrift etc. bezogen auf überschriften bei unterseiten */
 p.Unterseiten {
-  width: 75%;
+  width: large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 200%;
   text-decoration: underline;
@@ -72,9 +72,10 @@ ul.a {
 ul.b {
   list-style-type: square;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 80%;
+  font-size: medium;
 }
 /* Border bei tabelle */
 table, th, td {
   border: 1px solid black;
+  font-size: larger;
 }
