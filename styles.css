@@ -72,7 +72,7 @@ ul.a {
 ul.b {
   list-style-type: square;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 100%;
+  font-size: 80%;
 }
 /* Border bei tabelle */
 table, th, td {
