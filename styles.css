@@ -22,9 +22,7 @@ h1 {
   text-shadow:darkgrey 3px 1px;
 }
 
-html {
-margin-top: 0;
-}
+
 
 ul {
   list-style-type: none;
@@ -60,14 +58,7 @@ li a:hover:not(.active) {
   float: left;
 }
 
- /* Liste auf Home (welche rausgelöscht wurde, aber später noch hineinkommt) */
-ul.a {
-  list-style-type: square;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 160%;
-  text-align: justify;
-  text-shadow:darkgrey 2px 1px;
-}
+
 /* Design der Listen bei Quellen*/
 ul.b {
   list-style-type: square;
