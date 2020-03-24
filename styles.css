@@ -4,6 +4,7 @@ p.Inhalt{
   font-size: medium;
   width: 87.5%;
   text-align: justify;
+  padding: 0%;
 
 }
  /*  einstellungen für grösse,schrift etc. bezogen auf überschriften bei unterseiten */
@@ -22,9 +23,7 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif; 
   text-shadow:darkgrey 3px 1px;
 }
-img {
-padding-top: 6.5%;
-}
+
 ul {
   list-style-type: none;
   margin: 0;
