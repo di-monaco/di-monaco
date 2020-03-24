@@ -52,7 +52,11 @@ li a:hover:not(.active) {
   color: white;
 }
  
-
+html{
+  background-image: url(https://supertest.de/media/04e/e5/fischerdorf-hamnoy-auf-lofoten-norwegen.detail_2x.webp);
+  background-size: 100%;
+  
+}
 
 
 /* Design der Listen bei Quellen*/
