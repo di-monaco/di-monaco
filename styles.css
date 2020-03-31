@@ -13,7 +13,7 @@ p.Unterseiten {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 200%;
   text-decoration: underline;
-  text-shadow:white 2px 1px;
+  text-shadow: grey 2px 1px;
   text-align: center;
   padding-top: 0%;
 }
@@ -21,7 +21,7 @@ p.Unterseiten {
 h1 {
   font-size: 60px;
   font-family: Verdana, Geneva, Tahoma, sans-serif; 
-  text-shadow: white 3px 1px;
+  text-shadow: grey 3px 1px;
 }
 
 ul {
@@ -29,7 +29,7 @@ ul {
   margin: 0;
   padding: 0;
   width: 12.5%;
-  background-color: #f1f1f1;
+  background-color: grey;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -43,19 +43,17 @@ li a {
 }
 
 li a.active {
-  background-color: goldenrod;
-  color: white;
+  background-color: #191919;
+  color:white;
 }
 
 li a:hover:not(.active) {
   background-color: #555;
-  color: white;
+  color:white;
 }
  
 html{
-  background-image: url(https://supertest.de/media/04e/e5/fischerdorf-hamnoy-auf-lofoten-norwegen.detail_2x.webp);
-  background-size: 100%;
-  background-image: 
+ background-color: darkgrey;
 }
 
 
