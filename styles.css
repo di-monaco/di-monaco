@@ -13,7 +13,7 @@ p.Unterseiten {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 200%;
   text-decoration: underline;
-  text-shadow:darkgrey 2px 1px;
+  text-shadow:white 2px 1px;
   text-align: center;
   padding-top: 0%;
 }
@@ -21,7 +21,7 @@ p.Unterseiten {
 h1 {
   font-size: 60px;
   font-family: Verdana, Geneva, Tahoma, sans-serif; 
-  text-shadow:darkgrey 3px 1px;
+  text-shadow: white 3px 1px;
 }
 
 ul {
