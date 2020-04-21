@@ -32,12 +32,13 @@ p.home{
 }
   /*  einstellungen für grösse,schrift etc. bezogen auf Überschriften*/
 h1 {
-  padding-top: 4%;
+  padding-top: 2%;
   font-size: 60px;
   width: 90%;
   font-family: Verdana, Geneva, Tahoma, sans-serif; 
   color: white;
   text-shadow: grey 3px 1px;
+  background-color: black;
 }
 html{
  
