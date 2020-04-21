@@ -31,7 +31,6 @@ p.home{
 
 html{
  background-color: black;
-
 }
 
 html.lol {
@@ -40,9 +39,9 @@ html.lol {
 }
 
 .links {
-  width: 94%;
+  width: 100%;
   list-style-type: none;
-  margin: 0;
+  margin: -7px;
   padding: 0;
   overflow: hidden;
   background-color: white;
@@ -59,30 +58,31 @@ html.lol {
 
 .linkss a {
   display: block;
-  color: black;
+  color:black;
+  padding: 20px 20px;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
 .linkss a:hover {
-  background-color: #111;
+  background-color: black;
   color: white;
 }
 
 
 div.title {
   margin: 30px;
-  background-color: #ffffff;
+  background-color: white;
   opacity: 0.3;
   margin-left: 21%;
   margin-right: 21%;
 }
 
 div.title p {
-  margin: 5%;
+  margin: 7.5%;
   font-weight: bold;
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 300%;
+  
 }
