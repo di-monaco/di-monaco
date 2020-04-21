@@ -21,62 +21,48 @@ p.Unterseiten {
 }
   /*  einstellungen für grösse,schrift etc. bezogen auf Überschriften*/
 h1 {
+  padding-top: 2%;
   font-size: 60px;
+  width: 90%;
   font-family: Verdana, Geneva, Tahoma, sans-serif; 
   color: white;
   text-shadow: grey 3px 1px;
 }
+html{
+ 
+ background-color: black;
+}
+html.lol {
+  background-image: url(https://www.fodors.com/wp-content/uploads/2020/01/UltimateNorway__HERO_iStock-1127199612.jpg);
+}
 
-ul {
+.nav {
   position: fixed;
   top: 0;
   width: 100%;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:white;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 2vh;
+  background-color: white;
+  margin-bottom: 0px;
 }
 
-li {
-  float: left;
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
 }
 
-li a {
-  display: block;
+.linkss{
+  list-style: none;
+}
+
+.linkss a {
   color: black;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: darkgray;
-}
-
-.active {
-  background-color: greenyellow;
-}
+  letter-spacing: 2px;
+  font-weight: bolder;
+  font-size: 15px;
+  text-transform: uppercase;
  
-html{
- padding-top: 2%;
- background-color: black;
-}
-
-
-/* Design der Listen bei Quellen*/
-ul.b {
-  list-style-type: square;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: white;
-  font-size: medium;
-}
-/* Border bei tabelle */
-table, th, td {
-  border: 1px solid white;
-  font-size: larger;
-}
-
-html.lol {
-  background-image: url(https://www.fodors.com/wp-content/uploads/2020/01/UltimateNorway__HERO_iStock-1127199612.jpg);
 }
