@@ -60,7 +60,7 @@ li a:hover:not(.active) {
  
 html{
  padding-top: 2%;
-  background-color: black;
+ background-color: black;
 }
 
 
@@ -75,4 +75,8 @@ ul.b {
 table, th, td {
   border: 1px solid white;
   font-size: larger;
+}
+
+html.lol {
+  background-image: url(https://www.fodors.com/wp-content/uploads/2020/01/UltimateNorway__HERO_iStock-1127199612.jpg);
 }
