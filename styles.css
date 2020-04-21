@@ -10,13 +10,14 @@ p.Inhalt{
 }
  /*  einstellungen für grösse,schrift etc. bezogen auf überschriften bei unterseiten */
 p.Unterseiten {
+  text-align: center;
   width: large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   font-size: 200%;
   text-decoration: underline;
   text-shadow: grey 2px 1px;
-  text-align: center;
+  
   padding-top: 2%;
 }
 
@@ -41,8 +42,9 @@ html.lol {
 .links {
   width: 100%;
   list-style-type: none;
-  margin: -7px;
-  padding-top: 1%;
+
+  margin: -0.5%;
+  margin-top: 0%;
   overflow: hidden;
   background-color: white;
   text-transform: uppercase;
