@@ -59,7 +59,8 @@ li a:hover:not(.active) {
 }
  
 html{
- background-color: black;
+ padding-top: 2%;
+  background-color: black;
 }
 
 
