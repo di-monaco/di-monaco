@@ -17,7 +17,7 @@ p.Unterseiten {
   text-decoration: underline;
   text-shadow: grey 2px 1px;
   text-align: center;
-  padding-top: 0%;
+  padding-top: 2%;
 }
 
 p.home{
@@ -32,7 +32,7 @@ p.home{
 }
   /*  einstellungen für grösse,schrift etc. bezogen auf Überschriften*/
 h1 {
-  padding-top: 2%;
+  padding-top: 4%;
   font-size: 60px;
   width: 90%;
   font-family: Verdana, Geneva, Tahoma, sans-serif; 
@@ -47,33 +47,33 @@ html.lol {
   background-image: url(https://www.fodors.com/wp-content/uploads/2020/01/UltimateNorway__HERO_iStock-1127199612.jpg);
 }
 
-.nav {
+.links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  text-transform: uppercase;
   position: fixed;
   top: 0;
   width: 100%;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 2vh;
-  background-color: white;
-  margin-bottom: 0px;
+  padding-left: 5%;
+  
 }
 
-.links {
-  display: flex;
-  justify-content: space-around;
-  width: 30%;
-}
-
-.linkss{
-  list-style: none;
+.linkss {
+  float: left;
 }
 
 .linkss a {
+  display: block;
   color: black;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  letter-spacing: 2px;
-  font-weight: bolder;
-  font-size: 15px;
-  text-transform: uppercase;
- 
+}
+
+.linkss a:hover {
+  background-color: #111;
+  color: white;
 }
