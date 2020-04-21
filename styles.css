@@ -2,6 +2,7 @@
 p.Inhalt{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
+  color: white;
   width: 87.5%;
   text-align: justify;
   padding: 0%;
@@ -11,6 +12,7 @@ p.Inhalt{
 p.Unterseiten {
   width: large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
   font-size: 200%;
   text-decoration: underline;
   text-shadow: grey 2px 1px;
@@ -21,6 +23,7 @@ p.Unterseiten {
 h1 {
   font-size: 60px;
   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  color: white;
   text-shadow: grey 3px 1px;
 }
 
@@ -32,7 +35,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color:white;
 }
 
 li {
@@ -41,25 +44,22 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: darkgray;
 }
 
 .active {
-  background-color: #4CAF50;
-}
-.active {
-  background-color: #4CAF50;
+  background-color: darksalmon;
 }
  
 html{
- background-color: darkgrey;
+ background-color: black;
 }
 
 
@@ -67,10 +67,11 @@ html{
 ul.b {
   list-style-type: square;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
   font-size: medium;
 }
 /* Border bei tabelle */
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid white;
   font-size: larger;
 }
