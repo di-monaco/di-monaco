@@ -1,153 +1,40 @@
- /* einstellungen für grösse,schrift etc. bezogen auf den inhalt  */
-p.Inhalt{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: medium;
-  color: white;
-  width: 87.5%;
-  text-align: justify;
-  padding: 0%;
-
-}
- /*  einstellungen für grösse,schrift etc. bezogen auf überschriften bei unterseiten */
-p.Unterseiten {
-  text-align: center;
-  width: large;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: white;
-  font-size: 200%;
-  text-decoration: underline;
-  text-shadow: grey 2px 1px;
-  
-  padding-top: 2%;
-}
-
-p.home{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: medium;
-  color: white;
-  text-align: center;
-  padding: 0%;
-  float: left;
-}
-
-html{
- background-color: black;
-}
-
-html.lol {
-  background-image: url(https://www.fodors.com/wp-content/uploads/2020/01/UltimateNorway__HERO_iStock-1127199612.jpg);
-  
-}
-
-.links {
-  width: 100%;
-  list-style-type: none;
-
-  margin: -0.5%;
-  margin-top: 0%;
-  overflow: hidden;
-  background-color: white;
-  text-transform: uppercase;
-  position: fixed;
-  top: 0;
-  padding-left: 5%;
-  
-}
-
-.linkss {
-  float: left;
-}
-
-.linkss a {
-  display: block;
-  color:black;
-  padding: 20px 20px;
-  text-align: center;
-  text-decoration: none;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 100%;
-  
-}
-
-.linkss a:hover {
-  background-color: black;
-  color: white;
-}
-
-
-div.title {
-  margin: 30px;
-  background-color: white;
-  opacity: 0.3;
-  margin-left: 21%;
-  margin-right: 21%;
-}
-
-div.title p {
-  margin: 7.5%;
-  font-weight: bold;
-  color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 300%;
-  
-}
-
-
-
-
 * {
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+html{
+background-color: black;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:#0B2161;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#0B2161;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
 }
 
-/* Style the header */
-.header {
-  background-color: #f1f1f1;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-}
-
-/* Container for flexboxes */
-.row {
-  display: -webkit-flex;
-  display: flex;
-}
-
-/* Create three unequal columns that sits next to each other */
-.column {
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-/* Left and right column */
-.column.side {
-   -webkit-flex: 1;
-   -ms-flex: 1;
-   flex: 1;
-}
-
-/* Middle column */
-.column.middle {
-  -webkit-flex: 2;
-  -ms-flex: 2;
-  flex: 2;
-}
-
-/* Style the footer */
-.footer {
-  background-color: #f1f1f1;
-  padding: 10px;
-  text-align: center;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  .row {
-    -webkit-flex-direction: column;
-    flex-direction: column;
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
   }
 }
