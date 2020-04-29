@@ -44,7 +44,6 @@ background-color: white;
 
 .header{
   background-color:  #002368;
-  background-image: radial-gradient(#002368,white, #ef2729 );
   color: #ef2729;
   text-shadow: white 1px 1px;
   padding:15px;
@@ -54,7 +53,9 @@ background-color: white;
 .norwegen{
 color: white;
 }
-
+.titel{
+color: white;
+}
 p{
   color: black;
   text-align: justify;
