@@ -78,6 +78,24 @@ h2{
   color: black;
   text-transform: uppercase;
 }
+
+#btn {
+  display: none;
+  bottom: 45px;
+  right: 30px;
+  font-size: 18px;
+  border: none;
+  position: fixed;
+  outline: none;
+  background-color: blue;
+  background-image: radial-gradient(circle, blue, red, white);
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 15px;
+
+}
+
+
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
   .menu, .main, .right {
