@@ -73,6 +73,7 @@ img{
 
 h2{
   color: black;
+  text-transform: uppercase;
 }
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
