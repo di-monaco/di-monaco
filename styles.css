@@ -11,7 +11,7 @@ background-color: white;
   text-align:center;
 }
 .menu a {
-  background-color:#002368;
+  background-color:black;
   width:100%;
   color:white;
   text-decoration: none;
@@ -26,7 +26,7 @@ background-color: white;
   padding:0 15px;
 }
 .right {
-  background-color:#002368;
+  background-color:black;
   color: white;
   float:left;
   width:20%;
@@ -35,7 +35,7 @@ background-color: white;
   text-align:center;
 }
 .footer {
-  background-color: #002368;
+  background-color: black;
   color: white;
   text-align:center;
   padding:15px;
@@ -43,7 +43,7 @@ background-color: white;
 }
 
 .header{
-  background-color:  #002368;
+  background-color:  black;
   color: #ef2729;
   text-shadow: white 1px 1px;
   padding:15px;
@@ -64,6 +64,10 @@ p{
 img{
   width: 16em;
   
+}
+
+.picmain{
+  width: 100%;
 }
 
 h2{
