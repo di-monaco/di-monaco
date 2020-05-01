@@ -71,6 +71,11 @@ img{
   padding-top: 7.5px;
 }
 
+.allg {
+  float:left;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
 h2{
   color: black;
   text-transform: uppercase;
