@@ -90,7 +90,7 @@ h2{
   cursor: pointer;
   border-radius: 4px;
   padding: 15px;
-  background-image: radial-gradient(circle, blue, white, red);
+  background-color: darkgray;
  
 }
 
