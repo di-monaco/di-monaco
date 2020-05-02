@@ -53,6 +53,7 @@ html {
   margin-bottom: 8px;
   background-color: black;
   color:white;
+  cursor: pointer;
 }
 a{
   text-decoration: none;
@@ -212,6 +213,7 @@ button{
   font-size: 15px;
   text-transform: uppercase;
   margin-bottom: 0;
+  cursor: pointer;
 }
 video{
   padding: 0;
