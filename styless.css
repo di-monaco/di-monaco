@@ -11,8 +11,8 @@
   
   .headerr {
     padding: 20px;
-    text-align: center;
-    background: red;
+    text-align: left;
+    background: #C8102E;
     color: white;
   }
   
@@ -55,7 +55,7 @@
   
   
   .navbar a.active {
-    background-color: blue;
+    background-color: #003087;
     color: white;
   }
   
@@ -84,13 +84,7 @@
     padding: 20px;
   }
   
-  
-  .footerr {
-    padding: 20px;
-    text-align: center;
-    background: black;
-  }
-  
+
   
   @media screen and (max-width: 700px) {
     .row {   
@@ -134,10 +128,14 @@
     width: 100%;
    
   }
+
+  .mainpic{
+width: 60%;
+  }
   
   .fakten{
     color: white;
-    font-size: 18px;
+    font-size: 15px;
   }
   h2{
     color: black;
@@ -157,12 +155,12 @@
     cursor: pointer;
     border-radius: 4px;
     padding: 15px;
-  
+    color: black;
     background-color: red;
     animation: btn 5s infinite;
   }
   
-  @keyframes btn {
+  @keyframes btn{
     0%   {background-color: red;}
     50%  {background-color: #e6e6e5;}
     100%  {background-color:#000099;}
@@ -201,7 +199,7 @@
     background-color: white;
     color:black;
     width: 100%;
-    padding: 15px;
+    padding: 0px;
     outline: none;
     border: none;
     font-size: 15px;
@@ -211,7 +209,8 @@
   }
   
   .active, .acc:hover {
-    background-color: dimgray;
+    background-color:dimgray;
+    color: white;
   }
   
   .pnl {
@@ -223,7 +222,11 @@
     
   }
   
-  
+.bttn{
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
   
   
   .fl-cd {
@@ -267,3 +270,29 @@
   }
   
   
+  .footerr {
+    padding: 20px;
+    text-align: center;
+    
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: red;
+    animation: title 5s infinite;
+  }
+  
+  .ttl{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 40px;
+    text-align: center;
+  
+  }
+  
+  @keyframes title {
+    0%   {background-color: red;}
+    50%  {background-color: #e6e6e5;}
+    100%  {background-color: #000099;}
+  }
