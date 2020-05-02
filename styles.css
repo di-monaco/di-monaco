@@ -45,7 +45,7 @@ html {
 }
 
 .menu li:hover {
-  background-color: blue;
+  background-color: dimgray;
 }
 
 a{
@@ -115,7 +115,11 @@ color: white;
 
 .norwegen{
 color: white;
-font-size: 15px;
+font-size: 20px;
+}
+.norweg{
+  color: white;
+  font-size: 15px;
 }
 .titel{
 color: white;
@@ -147,7 +151,9 @@ h2{
   color: black;
   text-transform: uppercase;
 }
-
+.TEXT{
+  font-size: 18px;
+}
 #btn {
   display: none;
   bottom: 50px;
