@@ -60,28 +60,49 @@
       
     </p>
 
- <p> <i class='fas fa-plane' style='font-size:15px'></i>  Es gibt regelmässige und häufige Flugverbindungen aus allen grossen Städten Norwegens </p>
- <p>
-  <i class='fas fa-car' style='font-size:18px'></i>    
 
+<button class="acc"> <i class='fas fa-plane' style='font-size:15px'></i> </button>
+<div class="pnl">
+  <p>Es gibt regelmässige und häufige Flugverbindungen aus allen grossen Städten Norwegens</p>
+</div>
+<button class="acc">  <i class='fas fa-car' style='font-size:18px'></i>   </button>
+<div class="pnl">
+  <p>Es gibt ein Strassennetz für Reisende, die aus Richtung Norden kommen, es ist eine Verbindung zwischen dem Festland und den Lofoten, die ohne Fähre funktioniert.  
+  </p>
+</div>
+<button class="acc">   <i class='fas fa-ship' style='font-size:18px'></i>   </button>
+<div class="pnl">
+  <p>
+    Zwischen Bodø, Svolvær, und Værøy verkehren täglich Express-Passagierboote.
+  
+  In Bodø gibt es darüber hinaus Autofähren, die auf verschiedene Inseln der Lofoten übersetzen oder zwischen den Inseln hin- und herfahren.
+  </p>
+</div>
+<button class="acc">   <i class='fas fa-bed' style='font-size:15px'></i> </button>
+<div class="pnl">
+  <p>      Die Lofoten sind für alte Fischerhütten ("Rorbuer") bekannt – heute sind diese restauriert und bieten eine moderne Unterkunft für Urlauber.
+    Die Inseln bieten  eine große Auswahl an Hotels, Ferienwohnungen, Campingplätzen und Pensionen.</p>
+</div>
 
-Es gibt ein Strassennetz für Reisende, die aus Richtung Norden kommen, es ist eine Verbindung zwischen dem Festland und den Lofoten, die ohne Fähre funktioniert.  
+<script>
 
-</p>
+var acc = document.getElementsByClassName("acc");
+var i;
 
-<p>
-  <i class='fas fa-ship' style='font-size:18px'></i>    
-  Zwischen Bodø, Svolvær, und Værøy verkehren täglich Express-Passagierboote.
+for (i = 0; i < acc.length; i++) {
+acc[i].addEventListener("click", function() {
+this.classList.toggle("active");
+var panel = this.nextElementSibling;
+if (panel.style.maxHeight) {
+panel.style.maxHeight = null;
+} else {
+panel.style.maxHeight = panel.scrollHeight + "px";
+} 
+});
+}
 
-In Bodø gibt es darüber hinaus Autofähren, die auf verschiedene Inseln der Lofoten übersetzen oder zwischen den Inseln hin- und herfahren.
+</script>
 
-</p>
-    <p>
-      <i class='fas fa-bed' style='font-size:15px'></i> 
-     
-      Die Lofoten sind für alte Fischerhütten ("Rorbuer") bekannt – heute sind diese restauriert und bieten eine moderne Unterkunft für Urlauber.
-      Die Inseln bieten  eine große Auswahl an Hotels, Ferienwohnungen, Campingplätzen und Pensionen.
-    </p>
  
  
 <button onclick="topFunction()" id="btn" title="Go to top"> &#11014;
