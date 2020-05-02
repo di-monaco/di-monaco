@@ -89,9 +89,8 @@ a{
 
 @keyframes title {
   0%   {background-color: red;}
-  25%  {background-color: blue;}
-  50%  {background-color: #fbd900}
-  100% {background-color: green;}
+  50%  {background-color: #e6e6e5;}
+  100%  {background-color: #000099;}
 }
 /*   handy */
 [class*="col-"] {
@@ -188,10 +187,33 @@ h2{
 
 @keyframes btn {
   0%   {background-color: red;}
-  25%  {background-color: blue;}
-  50%  {background-color: #fbd900}
-  100% {background-color: green;}
+  50%  {background-color: #e6e6e5;}
+  100%  {background-color:#000099;}
+  
 }
 
+.wunder{text-align: center;
+text-transform: uppercase;
+}
+span.txt2 {
+  writing-mode: vertical-lr; 
+  text-orientation: upright;
+  text-align: center;
+}
 
-
+.vdbtn{
+text-align:center;
+color: black;
+}
+button{
+  background-color: black;
+  color: white;
+  border:none;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+video{
+  padding: 0;
+  margin-top: 0;
+}
