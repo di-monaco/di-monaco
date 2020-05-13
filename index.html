@@ -4,33 +4,40 @@
 <title>Norwegen</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="password.css" type="text/css" rel="stylesheet">
+<link href="styless.css" type="text/css" rel="stylesheet">
 <meta name="author" content="Dima Di Monaco">
 <link rel="icon" type="image/vnmd.microsoft.icon" href="flag.ico">
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
-
 <body>
-<div id="password">
-    <a>
-      enter password 
-    </a>
-<br>
-<input id="password" type="password" placeholder="password">
-<a href="https://di-monaco.github.io/" onclick="javascript:return validatePass()"> TRY</a>
 
+<div id="password">
+<a> Zugriff mit Passwort </a>
+
+<br>
+
+<input id="password" type="password" placeholder="password" style="font-size: 15px; font-family: Inter UI, serif;">
+
+<a href="main.html" onclick="javascript:return validatePass()"> EINGABE</a>
 
 <script>
 
 function validatePass(){
-      if(document.getElementById('password').value == 'norway'){
+      if(document.getElementById('password').value == 'norwegen'){
           return true;
       }else{
-          alert('wrong password');
+          alert('ZUGRIFF VERWEIGERT');
           return false;
       }
   }
 
+
 </script>
-  </div>
-  
+
+
+
+</div>
+
+</body>
+</html>
+
