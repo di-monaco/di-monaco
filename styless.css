@@ -124,7 +124,7 @@
   }
   
   .picmain{
-    width: 100%;
+    width: 75%;
    
   }
 
@@ -208,7 +208,7 @@ width: 60%;
   }
   
   .active, .acc:hover {
-    background-color:dimgray;
+    background-color: #003087;
     color: white;
   }
   
