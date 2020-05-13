@@ -1,0 +1,27 @@
+html{
+    background-image:  url('https://img.theculturetrip.com/768x432/wp-content/uploads/2018/08/mikita-karasiou-591387-unsplash.jpg');
+}
+
+#Password{
+
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: black;
+    padding: 40px;
+}
+
+#passw{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+input{
+    padding: 3px;
+    
+}
