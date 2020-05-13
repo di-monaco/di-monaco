@@ -299,4 +299,16 @@ width: 60%;
   }
 
 
+  th{
+    font-size: 15px;
+    font-weight: unset;
+  }
+
+h7{
+    font-size: 20px;
   
+  }
+
+  #fakt{
+    color: white;
+  }
