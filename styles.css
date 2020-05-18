@@ -127,7 +127,7 @@
   
   .picmain{
     width: 75%;
-   
+   isolation: isolate;
   }
 
   .mainpic{
@@ -157,16 +157,11 @@ width: 60%;
     border-radius: 4px;
     padding: 15px;
     color: black;
-    background-color: red;
-    animation: btn 5s infinite;
-  }
-  
-  @keyframes btn{
-    0%   {background-color: red;}
-    50%  {background-color: #e6e6e5;}
-    100%  {background-color:#000099;}
+    background-color:#C8102E;
     
   }
+  
+
   
   .wunder{text-align: center;
   text-transform: uppercase;
@@ -305,10 +300,10 @@ width: 60%;
     font-weight: unset;
   }
 
- h7{
-    font-size: 20px;
-  
-  }
+ .h7{
+
+  font-size: 15px;
+ }
 
   #fakt{
     color: white;
