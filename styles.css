@@ -275,7 +275,8 @@ width: 60%;
   .footerr {
     padding: 20px;
     text-align: center;
-    
+    margin-left: 0;
+    margin-right: 0;
     color: white;
     text-align: center;
     font-size: 12px;
