@@ -1,6 +1,6 @@
 const options = {
     bottom: '50px', 
-    right: '30px', 
+    right: '20px', 
     left: 'unset',
     time: '0.3s', 
     mixColor: '#fff', 
