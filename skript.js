@@ -6,9 +6,9 @@ const options = {
     mixColor: '#fff', 
     backgroundColor: '#fff',  
     buttonColorDark: '#C8102E',  
-    buttonColorLight: '#fff', 
+    buttonColorLight: '#C8102E', 
     saveInCookies: true, 
-    label: '🌓', 
+    label: '🌗', 
     autoMatchOsTheme: true 
   }
 
