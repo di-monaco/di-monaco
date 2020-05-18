@@ -193,6 +193,7 @@ width: 60%;
   video{
     padding: 0;
     margin-top: 0;
+    isolation: isolate;
   }
   
   
@@ -304,7 +305,7 @@ width: 60%;
     font-weight: unset;
   }
 
-h7{
+ h7{
     font-size: 20px;
   
   }
