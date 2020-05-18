@@ -1,0 +1,18 @@
+.footerr {
+    padding: 20px;
+    text-align: center;
+    
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    background-color: red;
+    animation: title 5s infinite;
+  }
+
+  
+  @keyframes title {
+    0%   {background-color: red;}
+    50%  {background-color: #e6e6e5;}
+    100%  {background-color: #000099;}
+  }
