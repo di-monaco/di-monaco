@@ -4,7 +4,7 @@ html{
 
 #Password{
     
-    color: white;
+    color: black;
     text-align: center;
    
 }
@@ -12,7 +12,7 @@ html{
 #passw{
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
+    color: black;
 
 }
 
