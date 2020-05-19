@@ -21,3 +21,9 @@ input{
     padding: 3px;
     
 }
+
+h1 {
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: white 3px 1px;
+}
